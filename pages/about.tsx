@@ -15,10 +15,10 @@ const Home = () => {
 
       <Block>
         <h1>Hello</h1>
-        <h2>This is the home page</h2>
+        <h2>This is the about page</h2>
         <p>
-          <Link href="/about">
-            <a>About</a>
+          <Link href="/">
+            <a>Home</a>
           </Link>
         </p>
       </Block>
