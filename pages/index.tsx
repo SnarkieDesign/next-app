@@ -8,7 +8,7 @@ const Home: React.FC<HomeProps> = () => {
   return (
     <Page>
       <Block>
-        <p>This current time is {dayjs().format("h:mm:ss a")}</p>
+        <h1>This current time is {dayjs().format("h:mm:ss a")}</h1>
       </Block>
     </Page>
   );
