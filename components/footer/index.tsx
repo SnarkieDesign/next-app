@@ -1,7 +1,7 @@
 import Block from "../block";
 import styles from "./footer.module.scss";
 import Image from "next/image";
-import vercel from "../../public/vercel.svg";
+import next from "../../public/next.svg";
 
 const Footer: React.VFC = () => {
   return (
@@ -9,7 +9,7 @@ const Footer: React.VFC = () => {
       <div className={styles.layout}>
         <p>&copy; Luke Underwood</p>
         <div className={styles.logo}>
-          <Image src={vercel} alt="Vercel logo" layout="responsive" />
+          <Image src={next} alt="Next logo" layout="responsive" />
         </div>
       </div>
     </Block>

@@ -1,18 +1,14 @@
-import Link from "next/link";
+import dayjs from "dayjs";
 import Page from "../components/page";
 import Block from "../components/block";
 
-const Home = () => {
+export interface HomeProps {}
+
+const Home: React.FC<HomeProps> = () => {
   return (
     <Page>
       <Block>
-        <h1>Hello</h1>
-        <h2>This is the home page</h2>
-        <p>
-          <Link href="/about">
-            <a>About</a>
-          </Link>
-        </p>
+        <p>This current time is {dayjs().format("h:mm:ss a")}</p>
       </Block>
     </Page>
   );

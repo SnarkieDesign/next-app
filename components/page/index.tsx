@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Header from "../header/index";
 import Footer from "../footer/index";
 
 export interface PageProps {
@@ -12,8 +11,6 @@ const Page: React.FC<PageProps> = ({ children, title }) => {
       <Head>
         <title>{title && `${title} | `}Luke&apos;s Next App</title>
       </Head>
-
-      <Header />
 
       {children}
 
