@@ -1,0 +1,21 @@
+.block {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.block--size-medium {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.block--size-small {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
