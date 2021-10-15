@@ -1,5 +1,5 @@
 import Block from "../block";
-import styles from "./header.module.css";
+import styles from "./header.module.scss";
 
 const Header: React.VFC = () => {
   return (

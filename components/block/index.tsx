@@ -1,5 +1,5 @@
-import styles from "./block.module.css";
 import clsx from "clsx";
+import styles from "./block.module.scss";
 
 export interface BlockProps {
   className?: string;

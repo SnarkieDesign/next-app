@@ -1,5 +1,5 @@
 import Block from "../block";
-import styles from "./footer.module.css";
+import styles from "./footer.module.scss";
 import Image from "next/image";
 import vercel from "../../public/vercel.svg";
 
