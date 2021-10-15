@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Footer from "../footer/index";
+import Footer from "components/blocks/footer";
 
 export interface PageProps {
   title?: string;

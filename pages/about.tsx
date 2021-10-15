@@ -1,7 +1,7 @@
 import type { GetStaticProps } from "next";
 import Link from "next/link";
-import Page from "../components/page";
-import Block from "../components/block";
+import Page from "components/page";
+import Block from "components/block";
 
 export interface AboutProps {
   title: string;

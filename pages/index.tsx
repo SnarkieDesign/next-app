@@ -1,6 +1,6 @@
 import dayjs from "dayjs";
-import Page from "../components/page";
-import Block from "../components/block";
+import Page from "components/page";
+import Block from "components/block";
 
 export interface HomeProps {}
 

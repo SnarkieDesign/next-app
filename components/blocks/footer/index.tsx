@@ -1,7 +1,7 @@
-import Block from "../block";
 import styles from "./footer.module.scss";
 import Image from "next/image";
-import next from "../../public/next.svg";
+import Block from "components/block";
+import next from "public/next.svg";
 
 const Footer: React.VFC = () => {
   return (
