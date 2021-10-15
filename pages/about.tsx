@@ -1,18 +1,10 @@
-import Head from "next/head";
 import Link from "next/link";
-import Header from "../components/header";
+import Page from "../components/page";
 import Block from "../components/block";
-import Footer from "../components/footer";
 
-const Home = () => {
+const About = () => {
   return (
-    <>
-      <Head>
-        <title>Luke&apos;s Next App</title>
-      </Head>
-
-      <Header />
-
+    <Page>
       <Block>
         <h1>Hello</h1>
         <h2>This is the about page</h2>
@@ -22,10 +14,8 @@ const Home = () => {
           </Link>
         </p>
       </Block>
-
-      <Footer />
-    </>
+    </Page>
   );
 };
 
-export default Home;
+export default About;

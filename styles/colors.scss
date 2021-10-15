@@ -1,9 +1,5 @@
-$colors: (
-  primary: #ff5e42,
-  text: #000,
-  borders: #e0e0e0,
-);
-
-@function get($name) {
-  @return map-get($colors, $name);
+:root {
+  --color-primary: #0070f3;
+  --color-text: #000;
+  --color-borders: #e0e0e0;
 }

@@ -1,7 +1,5 @@
-@use '../../styles/colors.scss';
-
 .block {
-  border-top: 1px solid colors.get(borders);
+  border-top: 1px solid var(--color-borders);
   margin-top: auto;
 }
 
