@@ -7,7 +7,7 @@ export interface HomeProps {}
 const Home: React.FC<HomeProps> = () => {
   return (
     <Page>
-      <Block>
+      <Block as="main">
         <h1>This current time is {dayjs().format("h:mm:ss a")}</h1>
       </Block>
     </Page>
